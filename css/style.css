@@ -1,0 +1,309 @@
+/*
+    Autor:
+    Thiago Baldykowski
+    Engenheiro de Materiais
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.externo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.interno{
+    float: left;
+    display: table;
+}
+.vCenter{
+    align-items: center;
+}
+.hCenter{
+    justify-content: center;
+}
+
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+.brightness {
+    -webkit-filter: brightness(250%);
+    filter: brightness(250%);
+}
+.contrast {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+}
+
+.wd10{
+    width: 10%;
+}
+.wd15{
+    width: 15%;
+}
+.wd20{
+    width: 20%;
+}
+.wd30{
+    width: 30%;
+}
+.wd40{
+    width: 40%;
+}
+.wd50{
+    width: 50%;
+}
+.wd60{
+    width: 60%;
+}
+.wd70{
+    width: 70%;
+}
+.wd80{
+    width: 80%;
+}
+.wd90{
+    width: 90%;
+}
+.wd100{
+    width: 100%;
+}
+
+.pdd2{
+    padding: 2px;
+}
+.pdd3{
+    padding: 3px;
+}
+.pdd4{
+    padding: 4px;
+}
+.pdd5{
+    padding: 5px;
+}
+.pdd6{
+    padding: 6px;
+}
+.pdd8{
+    padding: 8px;
+}
+.pdd10{
+    padding: 10px;
+}
+.pdd12{
+    padding: 12px;
+}
+.pdd16{
+    padding: 16px;
+}
+.pdd18{
+    padding: 18px;
+}
+.pdd20{
+    padding: 20px;
+}
+.pdd24{
+    padding: 24px;
+}
+.pdd32{
+    padding: 32px;
+}
+
+.leftpdd2{
+    padding-left: 2px;
+}
+.leftpdd3{
+    padding-left: 3px;
+    padding-bottom: 
+}
+.leftpdd4{
+    padding-left: 4px;
+}
+.leftpdd5{
+    padding-left: 5px;
+}
+.leftpdd6{
+    padding-left: 6px;
+}
+.leftpdd8{
+    padding-left: 8px;
+}
+.leftpdd10{
+    padding-left: 10px;
+}
+.leftpdd12{
+    padding-left: 12px;
+}
+.leftpdd16{
+    padding-left: 16px;
+}
+.leftpdd18{
+    padding-left: 18px;
+}
+.leftpdd20{
+    padding-left: 20px;
+}
+.leftpdd24{
+    padding-left: 24px;
+}
+.leftpdd32{
+    padding-left: 32px;
+}
+
+.tbpdd2{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.tbpdd3{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.tbpdd4{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.tbpdd5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tbpdd6{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.tbpdd8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.tbpdd10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tbpdd12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.tbpdd16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.tbpdd18{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.tbpdd20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tbpdd24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.tbpdd32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+
+
+/*
+    Cores para bordas 
+*/
+
+.bdblack{
+    border: 3px solid black;
+}
+.bdred{
+    border: 3px solid red;
+}
+.bdgreen{
+    border: 3px solid green;
+}
+.bdblue{
+    border: 3px solid blue;
+}
+.bdteal{
+    border: 3px solid teal;
+}
+.bdindigo{
+    border: 3px solid indigo;
+}
+.bdpurple{
+    border: 3px solid purple;
+}
+.bdyellow{
+    border: 3px solid yellow;
+}
+.bdorange{
+    border: 3px solid orange;
+}
+.bdbrown{
+    border: 3px solid brown;
+}
+.bdcoral{
+    border: 3px solid coral;
+}
+.bdturquoise{
+    border: 3px solid turquoise;
+}
+.bddarkgreen{
+    border: 3px solid darkgreen;
+}
+.bddarkred{
+    border: 3px solid darkred;
+}
+
+/*
+    Suavização da cor das fonts
+*/
+
+
+/*
+    Labels:
+*/
+.lbltitulo{
+    color: darkslategray;
+}
+.selecionado{
+    background-color: rgb(240,240,240);
+    font-weight: 900;
+}
+input[type=checkbox]
+{
+  -webkit-transform: scale(1); /* Safari and Chrome */
+}
+.hideBtn::-webkit-file-upload-button {
+  visibility: hidden;
+}
